@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <h2>Form Pendaftaran Siswa</h2>
+        <form>
+            <table>
+                <tr>
+                    <td><label>Nama Lengkap</label></td>
+                    <td>:</td>
+                    <td><input type="text" required placeholder="Masukkan Nama Lengkap"><br></td>
+                </tr>
+                <tr>
+                    <td><label>NIK</label></td>
+                    <td>:</td>
+                    <td><input type="number"><br></td>
+                </tr>
+            </table>
+
+            <label>Email</label>
+            <input type="email"><br>
+            <label>Password</label>
+            <input type="password"><br>
+            <label>Tanggal Lahir</label>
+            <input type="date"><br>
+            <label>Jenis Kelamin</label><br>
+            <input type="radio" name="jenisKelamin">Laki-laki
+            <input type="radio" name="jenisKelamin">Perempuan<br>
+            <label>Hobi</label><br>
+            <input type="checkbox" name="hobi">Basket
+            <input type="checkbox" name="hobi">Futsal
+            <input type="checkbox" name="hobi">Nonton
+            <input type="checkbox" name="hobi">Memasak
+            <input type="checkbox" name="hobi">Membaca<br>
+            <label>Alamat</label>
+            <textarea placeholder="Masukkan Alamat lengkap"></textarea><br>
+            <label>Jurusan</label>
+            <select name="jurusan">
+                <option value="TKJ">TKJ</option>
+                <option value="rpl">RPL</option>
+                <option value="pg">PG</option>
+            </select><br>
+            <label>Upload Foto</label>
+            <input type="file"><br>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </body>
+</html>
